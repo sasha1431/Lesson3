@@ -1,0 +1,36 @@
+@import url("reset.css");
+.header {
+    color: red;
+ }
+ .header h1,
+ .release h2 {
+    color: greenyellow;
+ }
+ #list {
+    color: blue;
+ }
+ .second {
+    color: burlywood;
+ }
+ .second.history {
+    color: blueviolet;
+ }
+ .second-section,
+ .universe-title {
+    color: chartreuse;
+ }
+ .trilogy > p {
+    color: aqua;
+ }
+ .trilogy ~ p {
+    color: rgb(195, 13, 220);
+ }
+ .trilogy + p {
+    color: rgb(9, 107, 244);
+ }
+ [class*="__release"] {
+    color: rgb(246, 142, 5);
+ }
+ .footer-link {
+   color: blue;
+ }
